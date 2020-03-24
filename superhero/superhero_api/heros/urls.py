@@ -4,7 +4,7 @@ from . import views
 from rest_framework import routers
 
 router = routers.DefaultRouter()
-router.register('heros', views.HeroView)
+router.register('superheros', views.HeroView)
 
 urlpatterns = [
     url('', include(router.urls)),
